@@ -1,0 +1,85 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  border: 40px solid #663f82;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 90.91vw;
+  height: 90.91vh;
+  font-family: RetroGaming;
+  background-color: #a566cd;
+  overflow: hidden;
+  color: #fcb9ea;
+  cursor: context-menu;
+  transform: scale(1.1);
+  transform-origin: top left;
+}
+
+@font-face {
+  font-family: "RetroGaming";
+  src: url("font/retroGaming/RetroGaming.woff2") format("woff2"),
+    url("font/retroGaming/RetroGaming.woff") format("woff");
+}
+
+@keyframes blinkAnim {
+  to {
+    visibility: hidden;
+  }
+}
+
+.blink {
+  position: relative;
+  animation: blinkAnim 1s steps(2, start) infinite;
+  bottom: 1px;
+}
+
+@keyframes blinkCursor {
+  50% {
+    border-color: transparent;
+  }
+  100% {
+    border-color: #fcb9ea;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.click {
+  cursor: pointer;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+.centered {
+  text-align: center;
+}
+
+p {
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #663f82;
+  border: 5px solid #9386c7;
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #9386c7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #b339b3;
+}

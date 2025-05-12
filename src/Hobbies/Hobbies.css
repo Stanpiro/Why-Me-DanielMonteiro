@@ -1,0 +1,158 @@
+.hobbiesMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hobbiesTitle {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hobbiesView {
+  display: flex;
+  gap: 30px;
+}
+
+.hobbieSquare {
+  padding: 5px;
+  border: 10px solid #ff7777;
+  width: 400px;
+  height: 470px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hobbieSquare p {
+  text-align: center;
+}
+
+.photo {
+  display: flex;
+  gap: 45px;
+  align-items: center;
+}
+
+.customControls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 400px;
+  justify-content: center;
+}
+
+.playButton {
+  position: relative;
+  top: -1px;
+  font-size: 30px;
+}
+
+.stopButton {
+  position: relative;
+  top: -2px;
+  font-size: 30px;
+}
+
+.barBorder {
+  display: flex;
+  border: 3px solid;
+  align-items: center;
+}
+
+.progress-bar {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 200px;
+  height: 20px;
+  background: #fcb9ea;
+  outline: none;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin: 5.5px;
+}
+
+.progress-bar::-webkit-slider-runnable-track {
+  background: #fcb9ea;
+  height: 17px;
+}
+
+.progress-bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 18px;
+  background-color: #9386c7;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.progress-bar::-webkit-slider-thumb:hover {
+  background-color: #663f82;
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+
+.time p {
+  width: 30px;
+  text-align: center;
+}
+
+/* Fire Fox */
+
+.progress-bar::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  background-color: #4caf50;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.progress-bar::-moz-range-track {
+  background: linear-gradient(to right, #4caf50, #ddd);
+  height: 8px;
+  border-radius: 5px;
+}
+
+.boardPic {
+  width: 200px;
+  height: 275px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.picsView {
+  padding: 5px;
+  border: 10px solid #ff7777;
+  width: 1350px;
+  height: 470px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainMenuHobb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 63%;
+  top: 2.5%;
+}
+
+.mainMenuHobb h2 {
+  margin: 0px;
+}
+
+.rotateHobb {
+  rotate: -90deg;
+}
+
+.songMargin {
+  margin-bottom: 5px;
+}

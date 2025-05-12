@@ -1,0 +1,35 @@
+.hobbiesInfo {
+  border: 10px solid #ff7777;
+  margin-top: 15px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  height: 470px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.projectWindow {
+  display: flex;
+  padding-left: 20px;
+  gap: 20px;
+}
+
+.jenePic {
+  width: 181px;
+  padding: 13px;
+}
+
+.mainMenuPro {
+  position: absolute;
+  left: 2%;
+  top: 4%;
+}
+
+.topMargingPro {
+  margin-top: 10px;
+}
+
+iframe {
+  border: none;
+}
